@@ -6,3 +6,5 @@ def salutation():
 
 
 x = 10
+print(x)
+greeting()
