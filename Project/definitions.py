@@ -1,4 +1,6 @@
-import time, os, random, math
+import time, os 
+import random
+import math
 
 os.system('cls')
 def title():
@@ -24,8 +26,35 @@ def title():
     time.sleep(1)
     print("type '1' to")
     time.sleep(1)
-    choice = input("\n\n        input a choice:")
-    return choice
-title()
+   
 
-print()
+
+
+def volCube(num):
+    os.system('cls')
+    num = pow(num,3)
+    print(num)
+    input()
+
+def volCone():
+    x = input("\n\n    enter a number ")
+    x = x**3
+    print(x)
+    input()
+def volSphere(x):
+    x = input("\n\n     ")
+
+
+def saCube(x):
+    x = input("\n\n     ")
+
+
+def saCone(x):
+    x = input("\n\n     ")
+
+
+def saCube(x):
+    x = input("\n\n     ")
+
+x = float(input())
+volCube(x)
