@@ -1,4 +1,5 @@
-import time, os, random, math, definitions
+import time, os, random, math
+import definitions
 z=0
 while z !=1:
     os.system('cls')
@@ -29,3 +30,7 @@ while z !=1:
     if choice == 6:
         x = float(input("input a radius: "))
         definitions.saSphere(x)
+    else:
+        print("\n\n\n           invalid choice...")
+        time.sleep(3)
+        choice = int(input("enter an option: "))
